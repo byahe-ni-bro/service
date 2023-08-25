@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="img/logo.png">
+	<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<style>
+	h4{
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+	}
+</style>
+
+<body>
+
+    <!-- LOADER -->
+	<div id="loader">
+		<svg class="car" width="102" height="40" xmlns="http://www.w3.org/2000/svg">
+			<g transform="translate(2 1)" stroke="#CC5B19" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+				<path class="car__body" d="M47.293 2.375C52.927.792 54.017.805 54.017.805c2.613-.445 6.838-.337 9.42.237l8.381 1.863c2.59.576 6.164 2.606 7.98 4.531l6.348 6.732 6.245 1.877c3.098.508 5.609 3.431 5.609 6.507v4.206c0 .29-2.536 4.189-5.687 4.189H36.808c-2.655 0-4.34-2.1-3.688-4.67 0 0 3.71-19.944 14.173-23.902zM36.5 15.5h54.01" stroke-width="3"/>
+				<ellipse class="car__wheel--left" stroke-width="3.2" fill="#FFF" cx="83.493" cy="30.25" rx="6.922" ry="6.808"/>
+				<ellipse class="car__wheel--right" stroke-width="3.2" fill="#FFF" cx="46.511" cy="30.25" rx="6.922" ry="6.808"/>
+				<path class="car__line car__line--top" d="M22.5 16.5H2.475" stroke-width="3"/>
+				<path class="car__line car__line--middle" d="M20.5 23.5H.4755" stroke-width="3"/>
+				<path class="car__line car__line--bottom" d="M25.5 9.5h-19" stroke-width="3"/>
+			</g>
+		</svg>
+	</div>
+    <!-- LOADER END -->
+
+	<div id="header">
+		<div class="logo-name"><a href="index.html"><img src="img/logo-name2.png"></a></div>
+		<div class="topnav" id="myTopnav">
+			<div class="none"></div>
+			<a href="index.html">HOME</a>
+			<a href="cars.html">OUR CARS</a>
+			<a href="booking.html">BOOKING</a>
+			<a href="contact.html" class="active">CONTACT US</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</div>
+            <div class="container-flex">
+                    <div class="contact-info" style="width: 400px;">
+                            <div class="cl-paragraph cms-e-section">
+                                <div class="cl-pb-15">
+                                    <h4><box-icon name='current-location' color='#ffffff' ></box-icon>
+                                        <span>Office Address</span></h4>
+                            
+                                    <p>No. 12 Capt. Ceriaco Nazareno 2nd floor Puremart building Naic, Cavite
+                                        ,Philippines</span></p>
+                                </div>
+                            
+                                <div class="cl-pb-15">
+                                    <h4><box-icon name='phone-call' color='#ffffff' ></box-icon>Phones</span></h4>
+                            
+                                    <p class="cl-m-n"></span> <span class="wc-editable" data-pk="ws_contact_phone_number" data-type="text">Globe: 0917-130-4678</span></p>
+                                </div>
+                                
+                                <div>
+                                    <h4><box-icon name='gmail' type='logo' color='#ffffff' ></box-icon>Email</span></h4>
+                            
+                                    <p><a href="mailto:byahenibroservice@gmail.com">byahenibroservice@gmail.com</a></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="contact-map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.867062244869!2d120.76204337523623!3d14.31915358613451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339629e4c96f3331%3A0x3cc6a6699d73a303!2ssmvp%20safety%20training%20and%20consultancy%20services!5e0!3m2!1sen!2sus!4v1691996343325!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+                        </div>
+			</div>
+	</div>
+	
+	
+	
+	<!-- SCRIPT -->
+
+    
+	<div class="footer clearfix">
+		<div class="footer-obj">
+			<div class="footer-text">© 2023 Byahe ni Bro | All rights reserved</div>
+			<div class="footer-icons">
+				<a href="https://www.facebook.com/profile.php?id=100095017235749&mibextid=9R9pXO" target="_blank"><box-icon name='facebook' type='logo' color='#ffffff' ></box-icon></a>
+				<a href="https://www.youtube.com/@Byaheronibro" target="_blank"><box-icon name='youtube' type='logo' color='#ffffff' ></box-icon></a>
+				<a href="mailto:byahenibroservice@gmail.com"><box-icon name='gmail' type='logo' color='#ffffff' ></box-icon></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Start of LiveChat (www.livechat.com) code -->
+<script>
+    window.__lc = window.__lc || {};
+    window.__lc.license = 15912930;
+    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+</script>
+<noscript><a href="https://www.livechat.com/chat-with/15912930/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+<!-- End of LiveChat code -->
+
+
+	<script src="script.js"></script>
+</body>
+</html>

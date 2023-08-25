@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Byahe ni Bro</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="img/logo.png">
+	<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"/>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+</head>
+
+    <!-- LOADER -->
+	<div id="loader">
+		<svg class="car" width="102" height="40" xmlns="http://www.w3.org/2000/svg">
+			<g transform="translate(2 1)" stroke="#CC5B19" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+				<path class="car__body" d="M47.293 2.375C52.927.792 54.017.805 54.017.805c2.613-.445 6.838-.337 9.42.237l8.381 1.863c2.59.576 6.164 2.606 7.98 4.531l6.348 6.732 6.245 1.877c3.098.508 5.609 3.431 5.609 6.507v4.206c0 .29-2.536 4.189-5.687 4.189H36.808c-2.655 0-4.34-2.1-3.688-4.67 0 0 3.71-19.944 14.173-23.902zM36.5 15.5h54.01" stroke-width="3"/>
+				<ellipse class="car__wheel--left" stroke-width="3.2" fill="#FFF" cx="83.493" cy="30.25" rx="6.922" ry="6.808"/>
+				<ellipse class="car__wheel--right" stroke-width="3.2" fill="#FFF" cx="46.511" cy="30.25" rx="6.922" ry="6.808"/>
+				<path class="car__line car__line--top" d="M22.5 16.5H2.475" stroke-width="3"/>
+				<path class="car__line car__line--middle" d="M20.5 23.5H.4755" stroke-width="3"/>
+				<path class="car__line car__line--bottom" d="M25.5 9.5h-19" stroke-width="3"/>
+			</g>
+		</svg>
+	</div>
+    <!-- LOADER END -->
+
+<body>
+	<div id="header">
+		<div class="logo-name"><a href="index.html"><img src="img/logo-name2.png"></a></div>
+		<div class="topnav" id="myTopnav">
+			<div class="none"></div>
+			<a href="index.html" class="active">HOME</a>
+			<a href="cars.html">OUR CARS</a>
+			<a href="booking.html">BOOKING</a>
+			<a href="contact.html">CONTACT US</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</div>
+
+	<div class="container">
+		<center><div class="logo-img"><img src="img/logo.png"></div>
+		<div class="home-slogan">RENT A CAR - MAGBYAHE W/ THE BEST</div>
+		<a href="booking.html"><button class="book-btn">BOOK NOW!</button></a>
+		</center>
+	</div>
+
+		<div class="cars-video" data-aos="fade-up" data-aos-offset="-200" data-aos-delay="0">
+			<video controls="controls" autoplay loop>
+				<source src="img/video.mp4" type="video/mp4" />
+			</video>
+		</div>
+
+	<div class="container" style="height: auto;">	
+		<div class="our-cars">
+			<div class="title-text" data-aos="zoom-in" data-aos-offset="-500">OUR CARS</div>
+			<div class="row">
+				<div class="img-container" data-aos="fade-left" data-aos-offset="-550" data-aos-delay="0">                          
+					<a href="cars.html"><img src="img/our (1).png"alt="Image"></a>
+				</div>
+				<div class="img-container" data-aos="fade-left" data-aos-offset="-550" data-aos-delay="300">
+					<a href="cars.html"><img src="img/our (2).png"alt="Image"></a>
+				</div>
+				<div class="img-container" data-aos="fade-left" data-aos-offset="-550" data-aos-delay="500">
+					<a href="cars.html"><img src="img/our (3).png"alt="Image"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="enlarged-image" onclick="hideImage()">
+		<img src="" alt="Enlarged Image">
+	</div>
+
+	<div class="white-space"></div>
+
+<div class="container">
+	<div id="about">
+		<div class="title-text" data-aos="zoom-in" data-aos-offset="-500">WHO ARE WE?</div>
+		<div class="container-about">
+			<div class="video-container" data-aos="fade-right" data-aos-offset="-600" data-aos-delay="100">
+				<iframe class="yt-iframe" width="640px" height="480px" src="https://www.youtube.com/embed/kHgCT8wNsgg" title="ANG GULO PERO MASAYA.. FAMILY TRAVEL......." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<div class="text-container" data-aos="fade-left" data-aos-offset="-700" data-aos-delay="200">
+				<p style="color: white;"><b>Byahe ni Bro:</b> Your Ultimate Road Companion!
+					<br><br>
+					At "Byahe ni Bro", we believe every journey creates a story. Whether you're setting off on a solo adventure, planning a weekend getaway with friends, or simply need a ride for business, we're here to ensure your travels are smooth, affordable, and memorable.</p>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+	<div class="footer clearfix">
+		<div class="footer-obj">
+			<div class="footer-text">© 2023 Byahe ni Bro | All rights reserved</div>
+			<div class="footer-icons">
+				<a href="https://www.facebook.com/profile.php?id=100095017235749&mibextid=9R9pXO" target="_blank"><box-icon name='facebook' type='logo' color='#ffffff' ></box-icon></a>
+				<a href="https://www.youtube.com/@Byaheronibro" target="_blank"><box-icon name='youtube' type='logo' color='#ffffff' ></box-icon></a>
+				<a href="mailto:byahenibroservice@gmail.com"><box-icon name='gmail' type='logo' color='#ffffff' ></box-icon></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Start of LiveChat (www.livechat.com) code -->
+<script>
+    window.__lc = window.__lc || {};
+    window.__lc.license = 15912930;
+    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+</script>
+<noscript><a href="https://www.livechat.com/chat-with/15912930/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+<!-- End of LiveChat code -->
+
+<!-- SCROLL TRANSITION -->
+
+<script>
+	AOS.init();
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
